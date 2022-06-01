@@ -53,8 +53,6 @@ if(isset($_GET["ID"]))
                     <?php echo $row["Details"]; ?>
 
             </div>
-
-            <img src="<?php echo $row["image"]; ?>">
             <?php
                 }
             ?>
